@@ -90,8 +90,6 @@ class _HomePageState extends State<HomePage> {
         children: [
           _todoList.length > 0
               ? Container(
-                  decoration:
-                      BoxDecoration(border: Border.all(color: Colors.black)),
                   height: 600,
                   child: ListView(
                       children: _todoList.map((list) {
